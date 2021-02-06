@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import '../../core/widget/card/user_card.dart';
 import 'package:http/http.dart' as http;
 
+import '../../core/widget/card/user_card.dart';
 import 'model/user_model.dart';
 
 class SampleFireView extends StatefulWidget {
@@ -13,7 +13,6 @@ class SampleFireView extends StatefulWidget {
 }
 
 class _SampleFireViewState extends State<SampleFireView> {
-  bool _isClicked = false;
   bool _isLoading = false;
   final String _baseUrl = 'https://flutterhackathon2021-default-rtdb.firebaseio.com/';
 

@@ -24,7 +24,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
+  dio: ^3.0.10
   http: any
+  image_picker: ^0.6.7+22
+  kartal: ^1.2.0
+  lottie: ^0.7.0+1
   pedantic: ^1.9.2
 
 dev_dependencies:
